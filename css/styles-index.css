@@ -11,6 +11,10 @@
     margin: 0 auto;
 }
 
+.bg-white {
+    background-color: white;
+}
+
 .bg-blu {
     background-color: #45abea;
 }
@@ -44,7 +48,6 @@ body {
 /* header */
 header {
     height: 70px;
-    background-color: white;
     line-height: 70px;
     padding-left: 20px;
     margin-bottom: 30px;
@@ -56,28 +59,38 @@ header {
 }
 
 /* card header */
+.card-header {
+    padding: 20px 30px;
+    border-bottom: 2px solid #f6f8f9;
+    border-radius: 5px 5px 0 0;
+}
+
 .btn {
     border-radius: 5px;
     padding: 5px 10px;
-    cursor: pointer;
     border: 1px solid transparent;
-    font-size: 14px;
+    font-size: 1rem;
     text-decoration: none;
 }
 
-.btn.btn-primary {
-    color: white;
-    background-color: #1e90ff;
-    border-color: currentColor;
+.btn.btn-outline {
+    border-color: #808080;
 }
 
-.btn.btn-outline {
-    color: white;
-    background-color: #808080;
-    border-color: currentColor;
+.btn:hover {
+    cursor: pointer;
 }
 
 /* card body */
+.card-body {
+    padding: 20px 30px;
+    border-radius: 0 0 5px 5px;
+}
+
+.task-list, .tasks {
+    list-style-type: none;
+}
+
 .task-item {
     line-height: 40px;
 }
@@ -100,7 +113,7 @@ header {
 
 .task-category {
     color: white;
-    font-size: 10px;
+    font-size: 0.8rem;
     border-radius: 10px;
     padding: 5px 10px;
     vertical-align: middle;
@@ -112,4 +125,8 @@ header {
 
 .task-status.task-undone {
     color: #ff0000;
+}
+
+.tasks > li {
+    margin-bottom: 25px;
 }

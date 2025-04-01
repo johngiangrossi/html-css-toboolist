@@ -8,13 +8,13 @@
     <meta name="description" content="Toboolist">
     <title>Toboolist</title>
     <link rel="stylesheet" href="./css/styles-index.css">
-    <link rel="icon" href="#" type="image/png">
+    <link rel="icon" href="./assets/img/img/Toboolist-logo.jpg" type="image/jpg">
 </head>
 
 <body>
 
     <!-- intestazione -->
-    <header>
+    <header class="bg-white">
         <img src="./assets/img/img/Toboolist-logo.jpg" alt="logo toboolist" id="logo">
     </header>
 
@@ -22,22 +22,20 @@
     <main class="container"> 
  
         <!-- card header -->
-        <div class="card-header">
-            <button class="btn btn-primary">Add task</button> 
-            <button class="btn btn-outline">Add section</button>
+        <div class="card-header bg-white">
+            <button class="btn btn-primary bg-blu">Add task</button> 
+            <button class="btn btn-outline bg-white">Add section</button>
         </div>
 
         <!-- card body -->
-        <div class="card-body">
+        <div class="card-body bg-white">
 
             <!-- list -->
-            <ul>
+            <ul class="tasks">
 
                 <li>
                     &blacktriangledown; New task
-                </li>
-
-                <li>
+                
                     <ul class="task-list">
                         <li class="task-item">
                             <span class="task-status task-done">&check;</span>
@@ -49,9 +47,7 @@
            
                 <li>
                     &blacktriangledown; Today
-                </li>
 
-                <li>
                     <ul class="task-list">
                         <li class="task-item">
                             <span class="task-status task-done">&check;</span>
@@ -78,9 +74,7 @@
             
                 <li>
                     &blacktriangledown; Upcoming
-                </li>
 
-                <li>
                     <ul class="task-list">
                         <li class="task-item">
                             <span class="task-status task-undone">&check;</span>
