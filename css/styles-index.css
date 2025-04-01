@@ -25,3 +25,30 @@ header {
     padding-left: 20px;
     margin-bottom: 30px;
 }
+
+#logo {
+    height: 50px;
+    vertical-align: middle;
+}
+
+/* card header */
+.btn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn.btn-primary {
+    color: white;
+    background-color: #1e90ff;
+    border-color: currentColor;
+}
+
+.btn.btn-outline {
+    color: white;
+    background-color: #808080;
+    border-color: currentColor;
+}
