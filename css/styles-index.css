@@ -11,3 +11,17 @@
     margin: 0 auto;
 }
 
+/* generics */
+body {
+    background-color: #f6f8f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+header {
+    height: 70px;
+    background-color: white;
+    line-height: 70px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
